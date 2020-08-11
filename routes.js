@@ -13,5 +13,7 @@ module.exports = function(app){
 
     app.route('/ubahdata').put(jsonku.ubahdataMahasiswa);
 
+    app.route('/hapusdata').delete(jsonku.hapusdatamahasiswa);
+
 }
 
