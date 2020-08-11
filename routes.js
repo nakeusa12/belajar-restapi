@@ -8,5 +8,8 @@ module.exports = function(app){
     app.route('/tampil').get(jsonku.tampildata);
 
     app.route('/tampil/:id').get(jsonku.tampilberdasarkanId);
+
+    app.route('/tambah').post(jsonku.tambahdata)
+
 }
 
